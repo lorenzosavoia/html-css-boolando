@@ -1,0 +1,91 @@
+*{
+    padding 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.text-cancelled{
+    text-decoration: line-through;
+    color: black;
+
+}
+.relative{
+    position: relative;
+}
+
+.red{
+    color: red;
+    
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    text-align: center;  
+    font-size: 37px;
+}
+
+.rettangolo-sale{
+    width: 40px;
+    height: 30px;
+    bottom: 125px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    
+    position: absolute;
+
+}
+
+.contenitore-2{
+    width: 81%;
+    margin: 0 auto;
+    
+    
+}
+
+.immagine-none{
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+    
+
+.colonna-sinistra,
+.colonna-centrale,
+.colonna-destra{
+    
+    float: left;
+    width: 32%;
+    margin: 15px 0;
+   
+}
+.colonna-centrale{
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+
+
+
