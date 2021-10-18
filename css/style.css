@@ -24,17 +24,6 @@ html{
     background-position: center;
 }
 
-.colonna-sinistra:hover .img-top{
-    display: inline;
-}
-.colonna-centrale:hover .img-top{
-    display: inline;
-}
-.colonna-destra:hover .img-top{
-    display: inline;
-}
-
-
 .clearfix::after{
     content: '';
     display: table;
@@ -52,6 +41,12 @@ html{
 .red{
     color: red;
     font-weight: bold;
+    
+}
+.contenitore-2{
+    width: 81%;
+    margin: 0 auto;
+    
     
 }
 .square{
@@ -92,16 +87,15 @@ html{
 
 
 }
-
-.contenitore-2{
-    width: 81%;
-    margin: 0 auto;
-    
-    
+.colonna-sinistra:hover .img-top{
+    display: inline;
 }
-
-
-    
+.colonna-centrale:hover .img-top{
+    display: inline;
+}
+.colonna-destra:hover .img-top{
+    display: inline;
+}
 
 .colonna-sinistra,
 .colonna-centrale,
