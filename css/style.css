@@ -8,6 +8,31 @@ html{
     font-size: 100%;
 }
 
+.display-none{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    
+}
+.immagine{
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.colonna-sinistra:hover .img-top{
+    display: inline;
+}
+.colonna-centrale:hover .img-top{
+    display: inline;
+}
+.colonna-destra:hover .img-top{
+    display: inline;
+}
 
 
 .clearfix::after{
@@ -26,6 +51,7 @@ html{
 
 .red{
     color: red;
+    font-weight: bold;
     
 }
 .square{
@@ -37,6 +63,7 @@ html{
     right: 0;
     text-align: center;  
     font-size: 37px;
+    z-index: 100;
 }
 
 .rettangolo-sale{
@@ -47,8 +74,22 @@ html{
     color: white;
     text-align: center;
     padding-top: 6px;
-    
     position: absolute;
+    z-index: 100;
+
+}
+.rettangolo-sostenibilita{
+    width: 90px;
+    height: 30px;
+    bottom: 125px;
+    left: 45px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    position: absolute;
+    z-index: 100;
+
 
 }
 
@@ -58,15 +99,6 @@ html{
     
     
 }
-
-.immagine-none{
-    width: 100%;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 
 
     
